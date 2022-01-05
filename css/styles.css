@@ -96,7 +96,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
 
-  padding: 0 32px;
+  padding: 32px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -225,6 +225,8 @@ body {
   margin-left: calc(-1 * var(--gap));
 }
 .main-team-item {
+  background: var(--header-color);
+
   flex-basis: calc(100% / 4 - var(--gap));
   margin-top: var(--gap);
   margin-left: var(--gap);
